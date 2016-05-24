@@ -1,0 +1,138 @@
+#jumbosomething{
+    min-width: 30%;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-style: groove;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.btn-primary.test {
+    min-width: 30%;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+.btn-default.test {
+    min-width: 30%;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+.list-group-item.person {
+    min-width: 20%;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: none;
+}
+
+#form-style{
+    max-width: 60%;
+    min-width: 40%;
+    text-align: left;
+}
+
+#sessionRegisterClass{
+    background-color: white;
+}
+
+table.session{
+    table-layout: fixed;
+    max-width: 100%;
+}
+
+td.session {
+    overflow: hidden;
+    max-width: 120px;
+    min-width: 120px;
+    height: 70px;
+}
+
+a.person{
+    display: inline-block;
+    max-width: 250px;
+    min-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: hand;
+}
+
+.btn-block {
+    display: table-cell;
+    height: 70px;
+    font-size: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sessionButton{
+    font-size: small;
+}
+
+a.event{
+    display: inline-block;
+    max-width: 250px;
+    min-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: hand;
+}
+
+h4.event{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a.plusbutton{
+    display: inline-block;
+    max-width: 400px;
+    min-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: hand;
+}
+
+table.modal{
+    max-width: 100%;
+}
+
+#spinner{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -27px;
+    margin-left: -21px;
+}
+
+#dateBreak{
+    max-width: 100%;
+}

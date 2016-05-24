@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="registerCourse" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Legg til nytt kurs"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/registerCourse.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="courseOverview" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Kursoversikt"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/courseOverview.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="index" template="/WEB-INF/tiles/loginPage.jsp">
+        <put-attribute name="title"  value="Innlogging"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/index.jsp"/>
+    </definition>
+
+    <definition name="attenderInfo" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Kursinfo"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/attenderInfo.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="personInfo" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Deltakerinfo"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/participantInfo.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+    <definition name="fullPersonInfo" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Deltakerinfo"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/fullParticipantInfo.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="invoice" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Faktura"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/invoice.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+    <definition name="courseStatistics" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Kursstatistikk"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/courseStatistics.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="singleRegistration" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Påmelding"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/singleRegistration.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="groupRegistration" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Påmelding"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/groupRegistration.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+    <definition name="createUser" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Administrer"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/createUser.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+    <definition name="publicRegistrations" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Påmeldinger"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/publicRegistrations.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+    <definition name="groupInvoice" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Faktura"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/groupInvoice.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+    <definition name="courseEconomics" template="/WEB-INF/tiles/baseLayout.jsp">
+        <put-attribute name="title"  value="Økonomisk rapport"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/courseEconomics.jsp"/>
+        <put-attribute name="topmenu"   value="/WEB-INF/jsp/topmenu.jsp"/>
+    </definition>
+
+</tiles-definitions>
